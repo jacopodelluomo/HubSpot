@@ -5,15 +5,15 @@
 }
 body{
     width: 100%;
-  font-family: var(--cl-font-family, "Lexend Deca", sans-serif);
+    font-family:  "Roboto", serif;
 }
 header{
-  background-color: blue;
+  /* background-color: blue; */
   width: 100%;
   /* height: 200px; */
 }
 main{
-  background-color: orange;
+  /* background-color: orange; */
   width: 100%;
 
 }
@@ -23,26 +23,28 @@ footer{
   height: 500px;
 }
 nav{
-  background-color: red;
+  /* background-color: red; */
   width: 100%;
   /* height: 150px; */
-
 }
-
+.cubo-img i{
+  font-size: 30px;
+}
 .nav-top{
-  background-color: pink;
+  background-color: lightgrey;
   width: 80%;
   height: 50px;
   margin: 0 auto;
   position: relative;
+  border-bottom: 2px solid grey;
+  padding:1% 0;
 }
+
 .nav-bottom{
   position: relative;
-  background-color: yellow;
   width: 80%;
   height: 50px;
   margin: 0 auto;
-
 
 }
 .button-1{
@@ -53,21 +55,25 @@ nav{
 }
 .button-2{
   padding: 4% 4%;
-  border: 1px solid black;
-  background-color: orange;
+  color:white;
+  /* border: 1px solid black; */
+  border-radius: 4px;
+  background-color: rgb(255, 92, 53);
   font-size: 10px;
-  width: 20%;
+  width: 30%;
+  text-align: center;
 }
 .top-1{
   display: inline-block;
   margin-top:1%;
   width: 25%;
+
 }
 .top-2{
   position: absolute;
   width: 20%;
   display: inline-block;
-  margin-top:1%;
+  margin-top:1.5%;
   top:0%;
   right: 0%;
   transform: translate(1% , 5%);
@@ -84,7 +90,8 @@ nav{
 .top-4{
   position: absolute;
   right: 0%;
-  transform: translatex(-5%);
+  top:0%;
+  transform: translate(1% , -10%);
   display: inline-block;
   margin-top:1%;
   margin-right: 1%;
@@ -92,12 +99,25 @@ nav{
   height: 50px;
 }
 .titolo{
+  display: inline-block;
   width: 45%;
-  background-color: grey;
+  background-color: rgb(254, 244, 234, 0.4);
   margin-left: 10%;
+  margin-top: 5%;
   padding:5% 1%;
-
 }
+
+h1{
+  font-size: 35px;
+  margin-bottom:4%;
+}
+.titolo p{
+  margin-bottom:7%;
+}
+.titolo div{
+  margin-bottom:7%;
+}
+
 .sezione-t-img{
   background-color: grey;
   width: 100%;
@@ -107,18 +127,119 @@ nav{
   background-repeat: no-repeat;
   background-size: cover;
 }
-h1{
-  font-size: 35px;
-  margin-bottom:4%;
-}
 .divisore-section{
   background-color: lightblue;
   width: 100%;
   height: 100px;
 }
 .sezione-2{
-  background-color: green;
-  width: 80%;
+  background-color: lightgrey;
+  width: 100%;
+  margin:0 auto;
+  height: 1000px;
+}
+.cubo-img{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  /* background-color: pink; */
   margin:auto;
-  height: 500px;
+  padding:1% 1%;
+}
+.sezione2-1{
+  background-color: white;
+  width: 80%;
+  margin:5% auto;
+  height: 250px;
+}
+.learn-more{
+  float: left;
+  /* border:1px solid black; */
+  /* background-color: grey; */
+  width: 40%;
+  margin:0 auto;
+  height:240px;
+  text-align: center;
+}
+.freehub{
+  float: left;
+  /* border:1px solid black; */
+  /* background-color: yellow; */
+  width: 60%;
+  margin:0 auto;
+  height: 240px;
+}
+.img-libro{
+  display: block;
+  margin:5% 34%;
+  width: 150px;
+  height: 140px;
+  background-image: url(../IMG/libro.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sezione2-1:after{
+  content:"";
+  display:table;
+  clear:both;
+}
+ h2{
+  text-align: center;
+  margin:auto;
+  margin-bottom: 2%;
+}
+h3{
+  text-align: left;
+  margin-top: 8%;
+  margin-bottom: 4%;
+}
+h4{
+  text-align: left;
+  margin:5% auto;
+  margin-bottom: 2%;
+}
+
+.cubo-img div{
+  text-align: center;
+  width: 65%;
+  margin:auto;
+}
+.elementi-special{
+  margin-top:2%;
+}
+
+.sezione2-2{
+  margin: 4% 3%;
+  border:1px solid black;
+  background-color: white;
+  width: 27.3%;
+  height: 900px;
+  float: left;
+}
+.img-3{
+  margin: 20px auto;
+  width: 200px;
+  height: 150px;
+  background-image: url(../IMG/libro.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+hr{
+  margin:20% 20%;
+  background-color: red;
+}
+ul{
+  margin: 10% 6%;
+  text-align: left;
+  list-style: none;
+}
+.sezione2-2 div{
+  margin:auto;
+}
+.sezione2-2:after{
+  content:"";
+  display:table;
+  clear:both;
 }
