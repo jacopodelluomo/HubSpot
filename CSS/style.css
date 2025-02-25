@@ -3,3 +3,122 @@
   padding:0;
   box-sizing: border-box;
 }
+body{
+    width: 100%;
+  font-family: var(--cl-font-family, "Lexend Deca", sans-serif);
+}
+header{
+  background-color: blue;
+  width: 100%;
+  /* height: 200px; */
+}
+main{
+  background-color: orange;
+  width: 100%;
+
+}
+footer{
+  background-color: lightgreen;
+  width: 100%;
+  height: 500px;
+}
+nav{
+  background-color: red;
+  width: 100%;
+  /* height: 150px; */
+
+}
+
+.nav-top{
+  background-color: pink;
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+  position: relative;
+}
+.nav-bottom{
+  position: relative;
+  background-color: yellow;
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+
+
+}
+.button-1{
+  padding: 4% 4%;
+  border: 1px solid black;
+  font-size: 10px;
+
+}
+.button-2{
+  padding: 4% 4%;
+  border: 1px solid black;
+  background-color: orange;
+  font-size: 10px;
+  width: 20%;
+}
+.top-1{
+  display: inline-block;
+  margin-top:1%;
+  width: 25%;
+}
+.top-2{
+  position: absolute;
+  width: 20%;
+  display: inline-block;
+  margin-top:1%;
+  top:0%;
+  right: 0%;
+  transform: translate(1% , 5%);
+}
+.top-3{
+  display: inline-block;
+  margin-top:1%;
+}
+/* .logo{
+  display: inline-block;
+  vertical-align: middle;
+  height: 50px;
+} */
+.top-4{
+  position: absolute;
+  right: 0%;
+  transform: translatex(-5%);
+  display: inline-block;
+  margin-top:1%;
+  margin-right: 1%;
+  line-height: 50px;
+  height: 50px;
+}
+.titolo{
+  width: 45%;
+  background-color: grey;
+  margin-left: 10%;
+  padding:5% 1%;
+
+}
+.sezione-t-img{
+  background-color: grey;
+  width: 100%;
+  height: 500px;
+  background-image: url(../IMG/spondo-sezione-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  font-size: 35px;
+  margin-bottom:4%;
+}
+.divisore-section{
+  background-color: lightblue;
+  width: 100%;
+  height: 100px;
+}
+.sezione-2{
+  background-color: green;
+  width: 80%;
+  margin:auto;
+  height: 500px;
+}
